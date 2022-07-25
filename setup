@@ -1,0 +1,7 @@
+mv setup_det.py setup.py
+pip install .
+mv setup.py setup_det.py
+
+mv setup_track.py setup.py
+pip install .
+mv setup.py setup_track.py

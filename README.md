@@ -1,3 +1,23 @@
 # MO3TR
-An official implementation of Looking Beyond Two Frames: End-to-End Multi-Object Tracking Using Spatial and Temporal Transformers. 
+This the official implementation of Looking Beyond Two Frames: End-to-End Multi-Object Tracking Using Spatial and Temporal Transformers. 
 Paper Link:https://arxiv.org/abs/2103.14829
+## Getting Started
+Install the main packages:
+
+ - torch==1.9.1
+ - mmcv==1.4.1
+ - mmdet==2.19.1
+ - mmtrack==0.8.0
+
+Then use the following command to setup MO3TR:
+```
+bash setup
+```
+### Training
+```
+python run/train_nf.py
+```
+### Tracking
+```
+python run/track_nf.py
+```

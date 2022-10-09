@@ -21,3 +21,5 @@ python run/train_nf.py
 ```
 python run/track_nf.py
 ```
+You can download the model weight used for MOT17 test here:
+https://drive.google.com/file/d/1d-8A2dRNyMLb4kCYa7DMHCDvuiSMxc5K/view?usp=sharing

@@ -1,5 +1,6 @@
 # MO3TR
 This the official implementation of Looking Beyond Two Frames: End-to-End Multi-Object Tracking Using Spatial and Temporal Transformers. 
+The code is built on top of MMTRACK and MMDET. Please refer to these two repo for setup. 
 Paper Link:https://arxiv.org/abs/2103.14829
 ## Getting Started
 Install the main packages:
